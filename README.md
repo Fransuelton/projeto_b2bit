@@ -1,46 +1,104 @@
-# Getting Started with Create React App
+![B2Bit](./.github/header.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+![GitHub repo size](https://img.shields.io/github/repo-size/Fransuelton/projeto_b2bit?style=)
+![Npm version](https://img.shields.io/static/v1?label=npm&message=v10.5.2&logo=npm&color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/Fransuelton/projeto_b2bit?style=)
+![GitHub last commit](https://img.shields.io/github/last-commit/Fransuelton/projeto_b2bit)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## Sobre o Projeto 📝
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este projeto foi feito para o processo seletivo da empresa B2bit, onde foi proposto o desafio de um sistema de login consumindo uma API e exibindo as informações do usuário na tela.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+O projeto conta com duas páginas: a página de login, onde o usuário pode inserir seu e-mail e senha para acessar a aplicação, e a página de perfil, onde são exibidas as informações do usuário autenticado.
 
-### `npm test`
+Além disso, o projeto conta com testes unitários para garantir a qualidade do código e também design responsivo, para que a aplicação possa ser acessada em diferentes dispositivos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Layout 🎨
 
-### `npm run build`
+O layout da aplicação foi desenvolvido com base no protótipo fornecido pela empresa B2bit, e pode ser acessado através [deste link](https://www.figma.com/proto/klaZDgYO9WDU2z1LHeC3Dr/Projeto-Frontend?node-id=2-130&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=2%3A130).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+    <img src="./.github/layout1.png" alt="Image Example" width="400px">
+    <img src="./.github/layout2.png" alt="Image Example" width="400px">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Funcionalidades 🌟
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] Login de usuário
+- [x] Exibição de informações do usuário
+- [x] Logout de usuário
+- [x] Testes unitários
+- [] Feedback de erro no login
 
-### `npm run eject`
+## Tecnologias utilizadas ⚒️
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+As seguintes ferramentas foram usadas na construção do projeto:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Create React App](https://github.com/facebook/create-react-app)
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [React Testing Library](https://testing-library.com/)
+- [Axios](https://axios-http.com/docs/intro)
+- [React Router](https://reactrouter.com/en/main)
+- [Vercel](https://vercel.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Banner](./.github/banner1.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Instruções de uso 📋
 
-## Learn More
+Se desejar acessar a aplicação através do seu navegador, basta clicar [aqui](https://projeto-b2bit-dlmn.vercel.app/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Para acessar a aplicação, insira o e-mail `cliente@youdrive.com` e a senha `password`.
+2. Clique no botão "Sign In" para acessar a página de perfil.
+3. Na página de perfil, você poderá visualizar as informações do usuário autenticado. Como foto de perfil, nome, e e-mail.
+4. Para sair da aplicação, clique no botão "Logout".
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Rotas da aplicação 📍 
+
+A aplicação possui as seguintes rotas:
+
+| Rota               | Descrição                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/</kbd>     | Página inicial de login
+| <kbd>/profile</kbd>     | Página de perfil do usuário (Somente usuários autenticados)
+
+## Instruções de instalação 🚀
+
+Para rodar a aplicação em sua máquina, siga os passos abaixo:
+
+```bash
+# Clone este repositório para sua máquina usando HTTPS
+git clone https://github.com/Fransuelton/projeto-b2bit.git
+
+# Ou, se preferir, clone usando SSH
+git clone git@github.com:Fransuelton/projeto-b2bit.git
+
+# Navegue até a pasta do projeto no seu terminal ou prompt de comando
+cd projeto-b2bit
+
+# Instale todas as dependências necessárias
+npm install
+
+# Agora, vamos iniciar a aplicação em modo de desenvolvimento
+npm start
+
+# E pronto! basta acessar http://localhost:3000 no seu navegador favorito.
+```
+
+## Testes 🧪
+
+Os testes foram feitos utilizando a biblioteca Jest e React Testing Library, e garantem a qualidade do código da aplicação. Para rodar os testes unitários, basta executar o seguinte comando:
+
+```bash
+npm test
+```
+
+## Autor 👨‍💻
+
+![Fransuelton](./.github/author-banner.png)
