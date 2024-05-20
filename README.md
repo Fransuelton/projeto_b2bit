@@ -26,14 +26,6 @@ O layout da aplicação foi desenvolvido com base no protótipo fornecido pela e
     <img src="./.github/layout2.png" alt="Image Example" width="400px">
 </p>
 
-## Funcionalidades 🌟
-
-- [x] Login de usuário
-- [x] Exibição de informações do usuário
-- [x] Logout de usuário
-- [x] Testes unitários
-- [] Feedback de erro no login
-
 ## Tecnologias utilizadas ⚒️
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -52,7 +44,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Instruções de uso 📋
 
-Se desejar acessar a aplicação através do seu navegador, basta clicar [aqui](https://projeto-b2bit-dlmn.vercel.app/).
+Se desejar acessar a aplicação através do seu navegador, basta clicar [aqui](https://projeto-b2bit-lsdm.vercel.app/).
 
 1. Para acessar a aplicação, insira o e-mail `cliente@youdrive.com` e a senha `password`.
 2. Clique no botão "Sign In" para acessar a página de perfil.
@@ -74,13 +66,13 @@ Para rodar a aplicação em sua máquina, siga os passos abaixo:
 
 ```bash
 # Clone este repositório para sua máquina usando HTTPS
-git clone https://github.com/Fransuelton/projeto-b2bit.git
+git clone https://github.com/Fransuelton/projeto_b2bit.git
 
 # Ou, se preferir, clone usando SSH
-git clone git@github.com:Fransuelton/projeto-b2bit.git
+git clone git@github.com:Fransuelton/projeto_b2bit.git
 
 # Navegue até a pasta do projeto no seu terminal ou prompt de comando
-cd projeto-b2bit
+cd projeto_b2bit
 
 # Instale todas as dependências necessárias
 npm install
@@ -94,6 +86,8 @@ npm start
 ## Testes 🧪
 
 Os testes foram feitos utilizando a biblioteca Jest e React Testing Library, e garantem a qualidade do código da aplicação. Para rodar os testes unitários, basta executar o seguinte comando:
+
+Atualmente, a aplicação conta com testes somente para o componente `button.tsx`.
 
 ```bash
 npm test
